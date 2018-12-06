@@ -1,0 +1,25 @@
+From 97ebe4e3b8dd28db970579c67d8a60c5d7b9270b Mon Sep 17 00:00:00 2001
+From: Jan Chaloupka <jchaloup@redhat.com>
+Date: Thu, 8 Oct 2015 13:32:31 +0200
+Subject: [PATCH] change internal to inteernal
+
+---
+ floats.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/floats.go b/floats.go
+index 9d3ce78..c7a37a9 100644
+--- a/floats.go
++++ b/floats.go
+@@ -15,7 +15,7 @@ import (
+ 	"math"
+ 	"sort"
+ 
+-	"github.com/gonum/internal/asm"
++	"github.com/gonum/inteernal/asm"
+ )
+ 
+ // Add adds, element-wise, the elements of s and dst, and stores in dst.
+-- 
+1.9.3
+
